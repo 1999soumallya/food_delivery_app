@@ -22,6 +22,7 @@ class Dimensions {
   static double width45 = screenHeight / 18.76;
 
   //Dynamic Font Size
+  static double font16 = screenHeight/52.7;
   static double font20 = screenHeight / 42.2;
   static double font26 = screenHeight / 32.46;
 
@@ -36,11 +37,15 @@ class Dimensions {
   static double iconSize16 = screenHeight / 52.75;
 
 
+
   // List View Size
   static double listViewImg = screenWidth / 3.25;
   static double listViewTextContSize = screenWidth / 3.9;
 
   // Popular Food
   static double propularFoodImgSize = screenHeight/2.41;
+
+  // Bottom Height
+  static double bottomHeightBar = screenHeight/7.03;
 
 }
